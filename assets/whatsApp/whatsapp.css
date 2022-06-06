@@ -1,9 +1,9 @@
 img.fixed {
   position: fixed;
   top: 0;
-  margin-left: 59%;
-  margin-top: 37%;
-  width: 10%;
+  margin-left: 93%;
+  margin-top: 40%;
+  width: 6%;
 }
 
 /* Styles responsive web */
@@ -11,9 +11,18 @@ img.fixed {
   img.fixed {
     position: fixed;
     top: 0;
+    margin-left: 80%;
+    margin-top: 37%;
+    width: 10%;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  img.fixed {
+    position: fixed;
+    top: 0;
     margin-left: 59%;
     margin-top: 37%;
     width: 10%;
-    margin-bottom: 20%;
   }
 }
