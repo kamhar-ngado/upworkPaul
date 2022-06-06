@@ -11,18 +11,38 @@ img.fixed {
   img.fixed {
     position: fixed;
     top: 0;
-    margin-left: 80%;
-    margin-top: 37%;
+    margin-left: 93%;
+    margin-top: 48%;
+    width: 6%;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  img.fixed {
+    position: fixed;
+    top: 0;
+    margin-left: 82%;
+    margin-top: 190%;
     width: 10%;
   }
 }
 
-@media screen and (max-width: 1230px) {
+@media screen and (max-width: 500px) {
   img.fixed {
     position: fixed;
     top: 0;
-    margin-left: 59%;
-    margin-top: 37%;
+    margin-left: 88%;
+    margin-top: 160%;
+    width: 10%;
+  }
+}
+
+@media screen and (max-width: 429px) {
+  img.fixed {
+    position: fixed;
+    top: 0;
+    margin-left: 88%;
+    margin-top: 190%;
     width: 10%;
   }
 }
