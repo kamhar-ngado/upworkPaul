@@ -6,6 +6,9 @@
   box-sizing: border-box;
 }
 
+section.section {
+  margin-bottom: 20px;
+}
 body.bodyTesti {
   width: 100%;
   height: 100vh;
@@ -25,7 +28,6 @@ body.bodyTesti {
   padding-bottom: 60px;
   overflow: hidden;
   margin-left: 10%;
-  margin-bottom: 20%;
 }
 
 .wrapper {
@@ -73,7 +75,7 @@ body.bodyTesti {
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   padding: 5px 20px;
-  background: #fff;
+  /* background: #fff; */
   text-transform: capitalize;
   margin-bottom: 70%;
   margin-right: 20%;
